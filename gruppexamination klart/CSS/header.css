@@ -1,0 +1,132 @@
+	@font-face {
+		font-family: myFirstFont;
+		src: url(../fonts/opensans-300n.woff);
+	}
+	
+	div {
+	   font-family: myFirstFont;
+	}
+
+header {
+	display: flex;
+	position: relative;
+	width:100%;
+	height:90px;
+	margin-bottom: 10px;
+}
+
+.blackhead{
+	-webkit-flex:1;
+	flex:1;
+	float: left;
+	width: auto;
+	height: 90px;
+	background-color: #212121;
+	overflow: hidden;
+}
+
+.logo{
+	position: absolute;	
+	background-image: url(../material/logo.png);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: 50% 60%;
+	float:left;
+	left: 0px;
+	width: 115px;
+	height: 115px;
+	top: 0px;
+	z-index: 1;
+}
+
+.products{
+	display: inline-block;
+	position: relative;
+	background-image: url(../material/products.png);
+	background-color: #679931;
+	background-size: 50%;
+	background-repeat: no-repeat;
+	background-position: 50% 40%;
+	margin-right: 10px;
+	margin-left: 10px;
+	float: right;
+	width: 90px;
+	height: 90px;
+	top: 0px;
+}
+
+.button1, .button2, .button3, .button4, .button5{
+	color: white;
+	position: absolute;
+	width: 100%;
+	left: 0px;
+	bottom: 0px;
+	height: 0px;
+	background: rgba(15, 50, 70, 0.40);
+	overflow: hidden;
+	text-align: center;
+	font-size: 14px;
+
+	-webkit-transition:height ease-out 0.2s;
+	transition:height ease-out 0.2s;
+}
+
+.products:hover .button1, .social:hover .button2, .profile:hover .button3, .cart:hover .button4, .checkout:hover .button5{
+	height: 25px;
+	line-height: 25px;
+}
+
+.social {
+	position: relative;
+	background-image: url(../material/social.png);
+	background-color: #679931;
+	background-size: 50%;
+	background-repeat: no-repeat;
+	background-position: 50% 40%;
+	margin-right: 10px;
+	float: right;
+	width: 90px;
+	height: 90px;
+	top: 0px;
+}
+
+.profile{
+	position: relative;
+	background-image: url(../material/profile.png);
+	background-color: #679931;
+	background-size: 50%;
+	background-repeat: no-repeat;
+	background-position: 50% 40%;
+	margin-right: 10px;
+	float: right;
+	width: 90px;
+	height: 90px;
+	top: 0px;
+}
+
+.cart{
+	position: relative;
+	background-image: url(../material/cart.png);
+	background-color: #a89f39;
+	background-size: 50%;
+	background-repeat: no-repeat;
+	background-position: 50% 40%;
+	margin-right: 10px;
+	float: right;
+	width: 90px;
+	height: 90px;
+	top: 0px;
+}
+
+.checkout{
+	position: relative;
+	background-image: url(../material/checkout.png);
+	background-color: #a89f39;
+	background-size: 50%;
+	background-repeat: no-repeat;
+	background-position: 50% 40%;
+	float: right;
+	width: 90px;
+	height: 90px;
+	top: 0px;
+}

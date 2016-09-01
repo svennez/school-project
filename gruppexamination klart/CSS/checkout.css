@@ -1,0 +1,63 @@
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+.popupCheckout{
+    display: none;
+    position: fixed;
+	top: 0px;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	background:rgba(0, 0, 0, 0.5);
+	z-index: 10;
+}
+
+.check{
+	position: relative;
+	width:80%;
+	height:90%;
+	top:50px;
+	background: #ffffff;
+	margin: auto;
+}
+
+.popupCheckout.active{
+    display: block;
+}
+
+iframe{
+    border: 5px solid white;
+    height: 90%;
+    width: 80%;
+}
+
+body{
+  display. flex;
+  font-size:30px;
+}
+.col{
+  color:white;
+  flex:2 0px;
+  height: 50px;
+  background:black;
+  text-align: left;
+  left: 30px;
+}
+.closeButton2{
+  position:absolute;
+  right:5px;
+  top:5px;
+  height:40px;
+  width:40px;
+  background-image: url(../material/close-button.svg);
+  background-size: 40px;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+.closeButton2:hover{
+    border:1px solid #999;
+    color:#000;
+}

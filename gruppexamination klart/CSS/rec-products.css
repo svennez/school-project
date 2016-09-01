@@ -1,0 +1,174 @@
+recommendedproducts {
+    display: flex;
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    /*justify-content:space-between;*/
+}
+
+
+
+.rec-products {
+font-size: 27px;
+margin-top: 65px; 
+    
+}
+ 
+@font-face {
+    font-family: myFirstFont;
+    src: url(../fonts/opensans-300n.woff);
+	}
+    div, h1 {
+        font-family: myFirstFont;
+        font-size: 20px;
+        
+    }
+
+
+.hendryx {
+    display: inline-block;
+	position: relative;
+	background-image: url(../material/prod/p1.png);
+	background-repeat: no-repeat;
+	background-position: 50% 40%;
+	margin-right: 20px;
+	width: 265px;
+	height: 265px;
+	top: 0px;
+    background-size: 100%;
+}
+
+.hendryxbutton{
+	color: #261a1a;
+    position: absolute;
+	display: block;
+	width: 100%;
+	left: 0px;
+	bottom: 0px;
+	height: 30px;
+	background: rgba(255, 255, 255, 0.4);
+	overflow: hidden;
+    line-height: 30px;
+     
+
+
+
+	-webkit-transition:height ease-out 0.3s;
+	transition:height ease-out 0.3s;
+}
+
+.hendryx:hover .hendryxbutton{
+    
+	height: 60px;
+}
+
+
+
+
+
+.volkl {
+	position: relative;
+	background-image: url(../material/prod/p2.png);
+	background-repeat: no-repeat;
+	background-position: 50% 40%;
+	margin-right: 20px;
+	width: 265px;
+	height: 265px;
+	top: 0px;
+    background-size: 100%;
+
+}
+
+.volklbutton{
+	color: #261a1a;
+    position: absolute;
+	display: block;
+	width: 100%;
+	left: 0px;
+	bottom: 0px;
+	height: 30px;
+	background: rgba(255, 255, 255, 0.4);
+	overflow: hidden;
+    line-height: 30px;
+
+
+	-webkit-transition:height ease-out 0.3s;
+	transition:height ease-out 0.3s;
+}
+
+.volkl:hover .volklbutton{
+    
+	height: 60px;
+}
+
+.poc {
+	position: relative;
+	background-image: url(../material/prod/p3.png);
+	background-repeat: no-repeat;
+	background-position: 50% 40%;
+	margin-right: 20px;
+	width: 265px;
+	height: 265px;
+	top: 0px;
+    background-size: 100%;
+
+}
+
+.pocbutton{
+	color: #261a1a;
+    position: absolute;
+	display: block;
+	width: 100%;
+	left: 0px;
+	bottom: 0px;
+	height: 30px;
+	background: rgba(255, 255, 255, 0.4);
+	overflow: hidden;
+    line-height: 30px;
+
+
+	-webkit-transition:height ease-out 0.3s;
+	transition:height ease-out 0.3s;
+}
+
+.poc:hover .pocbutton{
+    
+	height: 60px;
+}
+
+.giro {
+	position: relative;
+	background-image: url(../material/prod/p1.png);
+	background-repeat: no-repeat;
+	background-position: 50% 40%;
+	width: 265px;
+	height: 265px;
+	top: 0px;
+    background-size: 100%;
+
+}
+
+.girobutton{
+	color: #261a1a;
+    position: absolute;
+	display: block;
+	width: 100%;
+	left: 0px;
+	bottom: 0px;
+	height: 30px;
+	background: rgba(255, 255, 255, 0.4);
+	overflow: hidden;
+    line-height: 30px;
+
+
+	-webkit-transition:height ease-out 0.3s;
+	transition:height ease-out 0.3s;
+}
+
+.giro:hover .girobutton{
+    
+	height: 60px;
+}
+
+
+

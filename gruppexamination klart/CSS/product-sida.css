@@ -1,0 +1,426 @@
+productsida{
+    display: flex;
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    justify-content:space-between;
+   flex-wrap: wrap;
+     max-width: 100%;
+        max-height: 100%;
+    
+}
+
+.product-sida {
+font-size: 27px;
+margin-top: 65px;    
+
+}
+ 
+@font-face {
+    font-family: myFirstFont;
+    src: url(../fonts/opensans-300n.woff);
+}
+    div, h1 {
+        font-family: myFirstFont;                      
+}
+
+.p1 {
+    display: inline-block;
+	position: relative;
+	background-image: url(../material/prod/p1.png);
+	background-repeat: no-repeat;
+	background-position: 50% 40%;
+	width: 265px;
+	height: 265px;
+	top: 0px;
+    background-size: cover;
+    margin-top: 15px;
+     
+}
+
+
+
+
+.p1button{
+	color: #261a1a;
+    position: absolute;
+	display: block;
+	width: 100%;
+	left: 0px;
+	bottom: 0px;
+	height: 30px;
+	background: rgba(255, 255, 255, 0.4);
+	overflow: hidden;
+    line-height: 30px;
+   
+
+
+
+	-webkit-transition:height ease-out 0.3s;
+	transition:height ease-out 0.3s;
+}
+
+.p1:hover .p1button, .p2:hover .p2button, .p3:hover .p3button, .p4:hover .p4button, .p5:hover .p5button, .p6:hover .p6button,
+.p7:hover .p7button, .p8:hover .p8button, .p9:hover .p9button, .p10:hover .p10button, .p11:hover .p11button, .p12:hover .p12button{
+	height: 60px;   
+}
+
+
+.p2 {
+    display: inline-block;
+	position: relative;
+	background-image: url(../material/prod/p2.png);
+	background-repeat: no-repeat;
+	background-position: 50% 40%;
+	width: 265px;
+	height: 265px;
+	top: 0px;
+    background-size: 100%;
+    margin-top: 15px;
+
+}
+
+.p2button{
+	color: #261a1a;
+    position: absolute;
+	display: block;
+	width: 100%;
+	left: 0px;
+	bottom: 0px;
+	height: 30px;
+	background: rgba(255, 255, 255, 0.4);
+	overflow: hidden;
+    line-height: 30px;
+
+
+	-webkit-transition:height ease-out 0.3s;
+	transition:height ease-out 0.3s;
+}
+
+.p3 {
+    display: inline-block;
+	position: relative;
+	background-image: url(../material/prod/p3.png);
+	background-repeat: no-repeat;
+	background-position: 50% 40%;
+	width: 265px;
+	height: 265px;
+	top: 0px;
+    background-size: 100%;
+    margin-top: 15px;
+    
+
+}
+
+.p3button{
+	color: #261a1a;
+    position: absolute;
+	display: block;
+	width: 100%;
+	left: 0px;
+	bottom: 0px;
+	height: 30px;
+	background: rgba(255, 255, 255, 0.4);
+	overflow: hidden;
+    line-height: 30px;
+
+
+	-webkit-transition:height ease-out 0.3s;
+	transition:height ease-out 0.3s;
+}
+
+
+.p4 {
+    display: inline-block;
+	position: relative;
+	background-image: url(../material/prod/p1.png);
+	background-repeat: no-repeat;
+	background-position: 50% 40%;
+	width: 265px;
+	height: 265px;
+	top: 0px;
+    background-size: 100%;
+    margin-top: 15px;
+}
+
+
+.p4button{
+	color: #261a1a;
+    position: absolute;
+	display: block;
+	width: 100%;
+	left: 0px;
+	bottom: 0px;
+	height: 30px;
+	background: rgba(255, 255, 255, 0.4);
+	overflow: hidden;
+    line-height: 30px;
+
+
+	-webkit-transition:height ease-out 0.3s;
+	transition:height ease-out 0.3s;
+}
+
+
+.p5 {
+    display: inline-block;
+	position: relative;
+	background-image: url(../material/prod/p2.png);
+	background-repeat: no-repeat;
+	background-position: 50% 40%;
+	width: 265px;
+	height: 265px;
+	top: 0px;
+    background-size: 100%;
+    margin-top: 15px;
+}
+
+
+.p5button{
+	color: #261a1a;
+    position: absolute;
+	display: block;
+	width: 100%;
+	left: 0px;
+	bottom: 0px;
+	height: 30px;
+	background: rgba(255, 255, 255, 0.4);
+	overflow: hidden;
+    line-height: 30px;
+   
+
+
+
+	-webkit-transition:height ease-out 0.3s;
+	transition:height ease-out 0.3s;
+}
+
+
+.p6 {
+    display: inline-block;
+	position: relative;
+	background-image: url(../material/prod/p3.png);
+	background-repeat: no-repeat;
+	background-position: 50% 40%;
+	width: 265px;
+	height: 265px;
+	top: 0px;
+    background-size: 100%;
+    margin-top: 15px;
+
+}
+
+
+.p6button{
+	color: #261a1a;
+    position: absolute;
+	display: block;
+	width: 100%;
+	left: 0px;
+	bottom: 0px;
+	height: 30px;
+	background: rgba(255, 255, 255, 0.4);
+	overflow: hidden;
+    line-height: 30px;
+
+
+	-webkit-transition:height ease-out 0.3s;
+	transition:height ease-out 0.3s;
+}
+
+
+.p7 {
+    display: inline-block;
+	position: relative;
+	background-image: url(../material/prod/p1.png);
+	background-repeat: no-repeat;
+	background-position: 50% 40%;
+	width: 265px;
+	height: 265px;
+	top: 0px;
+    background-size: 100%;
+    margin-top: 15px;
+
+}
+
+.p7button{
+	color: #261a1a;
+    position: absolute;
+	display: block;
+	width: 100%;
+	left: 0px;
+	bottom: 0px;
+	height: 30px;
+	background: rgba(255, 255, 255, 0.4);
+	overflow: hidden;
+    line-height: 30px;
+
+
+	-webkit-transition:height ease-out 0.3s;
+	transition:height ease-out 0.3s;
+}
+
+
+.p8 {
+    display: inline-block;
+	position: relative;
+	background-image: url(../material/prod/p3.png);
+	background-repeat: no-repeat;
+	background-position: 50% 40%;
+	width: 265px;
+	height: 265px;
+	top: 0px;
+    background-size: 100%;
+    margin-top: 15px;
+    
+
+}
+
+.p8button{
+	color: #261a1a;
+    position: absolute;
+	display: block;
+	width: 100%;
+	left: 0px;
+	bottom: 0px;
+	height: 30px;
+	background: rgba(255, 255, 255, 0.4);
+	overflow: hidden;
+    line-height: 30px;
+
+
+	-webkit-transition:height ease-out 0.3s;
+	transition:height ease-out 0.3s;
+}
+
+
+.p9 {
+    display: inline-block;
+	position: relative;
+	background-image: url(../material/prod/p2.png);
+	background-repeat: no-repeat;
+	background-position: 50% 40%;
+	width: 265px;
+	height: 265px;
+	top: 0px;
+    background-size: 100%;
+    margin-top: 15px;
+}
+
+.p9button{
+	color: #261a1a;
+    position: absolute;
+	display: block;
+	width: 100%;
+	left: 0px;
+	bottom: 0px;
+	height: 30px;
+	background: rgba(255, 255, 255, 0.4);
+	overflow: hidden;
+    line-height: 30px;
+   
+
+
+
+	-webkit-transition:height ease-out 0.3s;
+	transition:height ease-out 0.3s;
+}
+
+
+
+.p10 {
+    display: inline-block;
+	position: relative;
+	background-image: url(../material/prod/p2.png);
+	background-repeat: no-repeat;
+	background-position: 50% 40%;
+	width: 265px;
+	height: 265px;
+	top: 0px;
+    background-size: 100%;
+    margin-top: 15px;
+
+}
+
+.p10button{
+	color: #261a1a;
+    position: absolute;
+	display: block;
+	width: 100%;
+	left: 0px;
+	bottom: 0px;
+	height: 30px;
+	background: rgba(255, 255, 255, 0.4);
+	overflow: hidden;
+    line-height: 30px;
+
+
+	-webkit-transition:height ease-out 0.3s;
+	transition:height ease-out 0.3s;
+}
+
+
+.p11 {
+    display: inline-block;
+	position: relative;
+	background-image: url(../material/prod/p3.png);
+	background-repeat: no-repeat;
+	background-position: 50% 40%;
+	width: 265px;
+	height: 265px;
+	top: 0px;
+    background-size: 100%;
+    margin-top: 15px;
+
+}
+
+
+.p11button{
+	color: #261a1a;
+    position: absolute;
+	display: block;
+	width: 100%;
+	left: 0px;
+	bottom: 0px;
+	height: 30px;
+	background: rgba(255, 255, 255, 0.4);
+	overflow: hidden;
+    line-height: 30px;
+
+
+	-webkit-transition:height ease-out 0.3s;
+	transition:height ease-out 0.3s;
+}
+
+
+.p12 {
+    display: inline-block;
+	position: relative;
+	background-image: url(../material/prod/p1.png);
+	background-repeat: no-repeat;
+	background-position: 50% 40%;
+	width: 265px;
+	height: 265px;
+	top: 0px;
+    background-size: 100%;
+    margin-top: 15px;
+    
+
+}
+
+.p12button{
+	color: #261a1a;
+    position: absolute;
+	display: block;
+	width: 100%;
+	left: 0px;
+	bottom: 0px;
+	height: 30px;
+	background: rgba(255, 255, 255, 0.4);
+	overflow: hidden;
+    line-height: 30px;
+
+
+	-webkit-transition:height ease-out 0.3s;
+	transition:height ease-out 0.3s;
+}

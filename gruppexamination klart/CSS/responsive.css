@@ -1,0 +1,207 @@
+.mobile-menu{
+	display: none;
+	position: relative;
+	background-image: url(../material/mobile.png);
+	background-color: #679931;
+	background-size: 50%;
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	margin-left: 5px;
+	float: right;
+	width: 50px;
+	height: 50px;
+	top: 0px;
+	bottom: 0px;
+	overflow: hidden;
+}
+
+.mobile-menu select{
+	position: absolute;
+	top: 0px;
+	bottom: 0px;
+	right: 0px;
+	left: 0px;
+	opacity: 0.001;
+}
+.mobile-menu:hover select{
+	cursor: pointer;
+}
+
+@media all and (max-width: 1118px){
+	.wrapper{
+		width:830px;
+	}
+    
+    .image-box {
+        height: 520px;
+		
+	}
+    .giro{
+		display: none;
+    }
+    
+     .c4{
+		display: none;
+    }
+}
+
+@media all and (max-width: 829px){
+	
+	.wrapper{
+		width:555px;
+	}
+    
+    .image-box {
+        height: 310px;
+		
+	}
+    
+    .poc{
+        display: none;
+        margin-right: 0px;
+    }
+    
+    .c3{
+		display: none;
+	}
+
+	header {
+		height: 75px;
+	}
+
+	footer{
+		height: 100px;
+	}
+	.blackhead{
+		height: 70px
+	}
+
+	.logo{
+		height: 90px;
+		width: 90px;
+	}
+
+	.products, .social, .profile, .cart, .checkout{
+		height: 70px;
+		width: 70px;
+	}
+
+	footer{
+	height: 90px;
+	}
+
+}
+
+
+@media all and (max-width: 554px){
+	.wrapper{
+		margin-right: 5%;
+		margin-left:5%;
+		width: 270px;
+	}
+	header {
+		height: 55px;
+	}
+    
+    .image-box {
+     height: 200px;
+		
+	}
+    
+    .volkl{
+        display: none;
+        margin-right: 0px;
+    }
+    .c2{
+		display: none;
+	}
+
+
+	.editprofile{
+		font-size: 18px;
+		margin-top: 20px;
+	}
+	.blackhead{
+		height: 50px
+	}
+
+	.logo{
+		height: 60px;
+		width: 60px;
+	}
+
+	.products, .social, .profile, .cart, .checkout{
+		display: none;
+	}
+	.mobile-menu{
+		display:block;
+	}
+
+	.nicknamearea, .emailarea, .adressarea{
+	position: relative;
+	width: 100%;
+	}
+	.checkbox1, .checkbox2{
+		width: 100%;
+	}
+	.checkbox1 label, .checkbox2 label{
+		font-size: 12px;
+		font-weight: normal;
+	}
+
+	.checkbox2{
+		margin-bottom: 10px;
+	}
+
+	.profile-info{
+		display: flex;
+		flex-direction:column-reverse;
+	}
+
+	.profilepic{
+		margin:20px auto;
+	}
+
+	.savebutt{
+		margin: 20px auto;
+		float: left;
+	}
+
+	.savecontainer{
+		display: flex;
+		flex-direction:column-reverse;
+	}
+
+	.text{
+		display: flex;
+		flex-direction:column;
+		float: left;
+		left: 0px;
+		top:20px;
+		margin-bottom: 20px;
+	}
+
+	.add{
+		float: right;
+		position: absolute;
+		right: 5%;
+		margin-top: 10px;
+		margin-right: 0px;
+		right: 0px;
+	}
+
+	p {
+		margin-top: 10px;
+		margin-left: 0px;
+		font-size: 12px;
+		float:left;
+	}
+
+	footer{
+		top:20px;
+	}
+
+	.skull-light{
+		height: 250px;
+	}
+}

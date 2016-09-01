@@ -1,0 +1,51 @@
+.container {
+	width:100%;
+	height: auto;
+}
+
+.skull-light {
+	position: relative;
+	background-image: url(../material/prod/p3.png);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	width: 250px;
+	height: 250px;
+	top:10px;
+	float:left;
+	
+
+}
+
+.text {
+	margin-top:7px;
+	position: relative;
+	left: 20px;
+	
+}
+.add {
+	background-image: url(../material/add.png);
+	background-color: #a89f39;
+	background-size: 80% 80%;
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	float: right;
+	width: 40px;
+	height: 40px;
+	margin-right: 20px;
+
+}
+p {
+	font-size:12px;
+	width:80%;
+	left:20px;
+
+}
+
+footer {
+	clear:both;
+	top:250px;
+}
+
+.wrapper {
+	height:100%;
+}

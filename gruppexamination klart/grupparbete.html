@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>
+			Startsida
+		</title>
+
+		<meta charset="utf-8"/>
+		<meta name="viewport" content="width=device=width"/>
+		<link rel="stylesheet" href="CSS/grupparbete_style.css"/>
+	
+	</head>
+	<body>
+
+<div class="wrapper">
+		<header>
+				<div class="blackhead"><a href="grupparbete.html">
+                <div class="logo"></div></a>
+                </div>
+
+				<a href="product-page.html">
+					<div class="products">
+						<div class="button1">
+							Products
+						</div>
+					</div>
+				</a>
+				
+				<a href="">
+					<div class="social">
+						<div class="button2">
+							Social
+						</div>
+					</div>
+				</a>
+				
+				<a href="profile.html">
+					<div class="profile">
+						<div class="button3">
+							Profile
+						</div>
+					</div>
+				</a>
+				
+					<div class="cart" onclick="show_popup();">
+						<div class="button4">
+							Cart
+						</div>
+					</div>
+					<div class="popup-background" id="popup-background">
+	                <div class="popup">
+					<div class="col column">Cart
+				    <div class="closeButton" 
+                         onclick="hide_popup_closebutton();">
+                        </div>
+					</div>
+					
+					<div class="image1">
+					</div>
+						<div class="text1">
+							HENDRYX VOODOO
+						</div>
+							<div class="price1"> 
+								5999 SEK
+							</div>
+							<input class="number1" type="number">
+							<div class="remove1"></div>
+							
+					<div class="image2">
+					</div>
+						<div class="text2">
+							HENDRYX VOODOO
+						</div>
+							<div class="price2"> 
+								5999 SEK
+							</div>
+							<input class="number2" type="number">
+							<div class="remove2"></div>
+					
+					<div class="image3">
+					</div>
+						<div class="text3">
+							HENDRYX VOODOO
+						</div>
+							<div class="price3"> 
+								5999 SEK
+							</div>
+							<input class="number3" type="number">
+							<div class="remove3"></div>
+					
+                    
+						
+						</div>
+						</div>
+				
+				        <div class="checkout" 
+                             onclick="show_check();">
+						<div class="button5">
+							Checkout
+						</div>
+					
+					<div class="popupCheckout" id="popupCheckout">
+	                <div class="check">
+					<div class="col">Checkout
+				    <div class="closeButton2"    
+                         onclick="hide_check_closebutton();"></div>
+					</div>
+						<iframe src="klarna-link.html"></iframe>
+						
+					</div>
+					</div>
+			     </div>
+
+			<div class="mobile-menu">
+				<select>
+					<option>Products</option>
+					<option>Social</option>
+					<option>Profile</option>
+					<option>Cart</option>
+					<option>Checkout</option>
+				</select>
+			</div>
+		</header>
+
+<div class="image-box">
+        <div class="image active" style="background-image:url(material/slider/s1.jpg);"></div>
+        <div class="image" style="background-image:url(material/slider/s2.jpg);"></div>
+        <div class="image" style="background-image:url(material/slider/s3.jpg);"></div>
+       </div>
+	<script src="image-box.js"></script>
+	
+	<div class="rec-products">Recommended products</div>
+        
+         <recommendedproducts>
+
+				<a href="prod-info.html">
+					<div class="hendryx">
+						<div class="hendryxbutton">
+							HENDRYX VOODOO
+                            <br>1700kr<br>
+                            
+						</div>
+					</div>
+				</a>
+				
+				<a href="prod-info.html">
+					<div class="volkl">
+						<div class="volklbutton">
+							VÖLKL GOTAMA
+                            <br>1700kr<br>
+						</div>
+					</div>
+				</a>
+				
+				<a href="prod-info.html">
+					<div class="poc">
+						<div class="pocbutton">
+							POC SKULL LIGHT 2.0
+                            <br>1700kr<br>
+						</div>
+					</div>
+				</a>
+				
+				<a href="prod-info.html">
+					<div class="giro">
+						<div class="girobutton">
+							GIRO COMBYN MATTE WHITE
+                            <br>1700kr<br>
+						</div>
+                    </div>
+                </a>
+    </recommendedproducts>
+    
+    
+    
+    <div class="grupparbete-social">Latest social</div>
+    
+    <latestsocial>
+
+				<a href="">
+					<div class="c1">
+						<div class="c1button">
+							Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test 
+                            
+						</div>
+					</div>
+				</a>
+				
+				<a href="">
+					<div class="c2">
+						<div class="c2button">
+							Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test 
+                          
+						</div>
+					</div>
+				</a>
+				
+				<a href="">
+					<div class="c3">
+						<div class="c3button">
+							Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test 
+						</div>
+					</div>
+				</a>
+				
+				<a href="">
+					<div class="c4">
+						<div class="c4button">
+							Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test 
+						</div>
+                    </div>
+                </a>
+    </latestsocial>
+
+<br>
+	<script src="image-box.js"></script>
+	<script src="cart.js"></script>
+	<script src="checkout.js"></script>
+	<footer>
+		<div class="adress">
+			<h1>XTRM SPRTS</h1>
+				Storgatan 15
+				<br>
+				123 45
+				<br>
+				Storstaden
+
+		</div>
+		<div class="contactinfo">
+			info@xtrmsprts.se
+			<br>08-111 111</br>
+	</footer>
+
+</div>
+</div>
+</body>
+</html>

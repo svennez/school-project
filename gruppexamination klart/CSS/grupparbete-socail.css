@@ -1,0 +1,184 @@
+latestsocial{
+    display: flex;
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    
+}
+
+.grupparbete-social {
+    font-size: 27px;
+    margin-top: 65px;    
+}
+ 
+@font-face {
+    font-family: myFirstFont;
+    src: url(../fonts/opensans-300n.woff);
+}
+    div, h1 {
+        font-family: myFirstFont;                      
+}
+
+.c1{
+    display: inline-block;
+	position: relative;
+	background-image: url(../material/social/c1.jpg);
+	background-repeat: no-repeat;
+	background-position: 50%;
+    background-size: cover;
+    margin-right: 20px;
+	width: 265px;
+	height: 265px;
+	top: 0px;
+    opacity: 1;
+}
+
+.c1button{
+	color: #261a1a;
+    position: absolute;
+	width: 100%;
+	left: 0px;
+	bottom: 0px;
+	height: 100%;
+	background: rgba(255, 255, 255, 0.4);
+	overflow: hidden;
+    line-height: 20px;
+    opacity: 0;
+    padding-right: 10%;
+    padding-left: 10%;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    -moz-transition: opacity 0.25s ease-in-out;
+    -webkit-transition: opacity 0.25s ease-in-out;
+    transition: opacity 0.25s ease-in-out;
+  
+
+}
+
+.c1:hover .c1button{
+    display: block;
+    height: 100%;
+    opacity: 1;
+}
+
+.c2{
+	position: relative;
+	background-image: url(../material/social/c2.jpg);
+	background-repeat: no-repeat;
+	background-position: 50%;
+    background-size: cover;
+    margin-right: 20px;
+	width: 265px;
+	height: 265px;
+	top: 0px;
+    
+}
+
+.c2button{
+	color: #261a1a;
+    position: absolute;
+	width: 100%;
+	left: 0px;
+	bottom: 0px;
+	height: 100%;
+	background: rgba(255, 255, 255, 0.4);
+	overflow: hidden;
+    line-height: 20px;
+    opacity:0;
+    padding-right: 10%;
+    padding-left: 10%;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    -moz-transition: opacity 0.25s ease-in-out;
+    -webkit-transition: opacity 0.25s ease-in-out;
+    transition: opacity 0.25s ease-in-out;
+
+
+}
+
+.c2:hover .c2button{
+    display: block;
+    height: 100%;
+    opacity: 1;
+}
+
+.c3{
+	position: relative;
+	background-image: url(../material/social/c3.jpg);
+	background-repeat: no-repeat;
+	background-position: 50%;
+    background-size: cover;
+    margin-right: 20px;
+	width: 265px;
+	height: 265px;
+	top: 0px;
+    
+}
+
+.c3button{
+	color: #261a1a;
+    position: absolute;
+	width: 100%;
+	left: 0px;
+	bottom: 0px;
+	height: 100%;
+	background: rgba(255, 255, 255, 0.4);
+	overflow: hidden;
+    line-height: 20px;
+    padding-right: 10%;
+    padding-left: 10%;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    opacity:0;
+    -moz-transition: opacity 0.25s ease-in-out;
+    -webkit-transition: opacity 0.25s ease-in-out;
+    transition: opacity 0.25s ease-in-out;
+
+}
+
+.c3:hover .c3button{
+    display: block;
+    height: 100%;
+    opacity: 1;
+}
+
+.c4{
+	position: relative;
+	background-image: url(../material/social/c4.jpg);
+	background-repeat: no-repeat;
+	background-position: 50%;
+    background-size: cover;
+	width: 265px;
+	height: 265px;
+	top: 0px;
+    
+}
+
+.c4button{
+	color: #261a1a;
+    position: absolute;
+	width: 100%;
+	left: 0px;
+	bottom: 0px;
+	height: 100%;
+	background: rgba(255, 255, 255, 0.4);
+	overflow: hidden;
+    line-height: 20px;
+    padding-right: 10%;
+    padding-left: 10%;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    opacity:0;
+    -moz-transition: opacity 0.25s ease-in-out;
+    -webkit-transition: opacity 0.25s ease-in-out;
+    transition: opacity 0.25s ease-in-out;
+
+
+}
+
+.c4:hover .c4button{
+    display: block;
+    height: 100%;
+    opacity: 1;
+}
+
